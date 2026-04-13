@@ -1,0 +1,110 @@
+/* -------- HEADER PRINCIPAL (navbar) -------- */
+header {
+  background: var(--color-bg);
+  padding-block: var(--container-gap);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--page-padding);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  text-decoration: none;
+  color: inherit;
+}
+.logo svg {
+  width: 32px;
+  height: 32px;
+  stroke: var(--color-primary, currentColor);
+}
+
+.logo:hover {
+  background: #ca4246;
+  background-color: #ca4246;
+  background: conic-gradient(
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  background-size: 57%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-animation-rev 0.6s ease forwards;
+  cursor: pointer;
+}
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+}
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+}
+
+nav {
+  display: flex;
+  gap: var(--space-sm);
+}
+.nav-link.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+nav > a:hover {
+  color: var(--color-primary-strong);
+  font-weight: bold;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.auth-buttons > a {
+  padding: var(--space-xs);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.auth-buttons > a:hover {
+  background-color: var(--color-bg-muted);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+}

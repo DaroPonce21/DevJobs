@@ -1,0 +1,18 @@
+.button-return {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.button-return:hover {
+  background-color: var(--color-bg-muted);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+  cursor: pointer;
+  transition: 0.2s ease;
+}

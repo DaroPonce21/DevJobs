@@ -1,0 +1,18 @@
+.profile-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+.profile-main {
+  padding: 2rem 3rem;
+  background: var(--color-bg);
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-header p {
+  opacity: 0.7;
+}

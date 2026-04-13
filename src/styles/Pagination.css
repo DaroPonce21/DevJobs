@@ -1,0 +1,39 @@
+/***************PAGINADO*************/
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.pagination li button {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: none;
+  color: var(--color-text);
+  margin: 0 4px;
+  border-radius: 5px;
+  transition: background-color 1s;
+  background-color: var(--color-bg);
+}
+
+.pagination li button.active {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.pagination li button.disabled {
+  color: #dddddd;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.pagination li button:hover:not(.active) {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.disable {
+  display: none;
+}

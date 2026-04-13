@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.svg-notfound {
+  height: 20vh;
+  width: 20vw;
+  stroke: var(--color-primary-strong);
+}
+
+.Title {
+  font-size: clamp(3.5rem, 4vw, 3rem);
+  font-weight: 800;
+  max-width: 1200px;
+}
+
+.Sub-Title {
+  font-size: 1.5rem;
+  max-width: 600px;
+  opacity: 0.9;
+}
+
+.back-To-Home {
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sub-text {
+  color: var(--color-text-muted);
+}
+
+.back-To-Home:hover {
+  background: var(--color-primary-strong);
+}

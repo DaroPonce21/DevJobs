@@ -1,0 +1,98 @@
+/*-------- MAIN HERO JOB --------*/
+
+.Hero-job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  color: var(--color-text);
+}
+
+.Hero-job h1 {
+  font-size: clamp(3.5rem, 4vw, 3rem);
+  font-weight: 800;
+  max-width: 1200px;
+}
+
+.Hero-job p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  opacity: 0.9;
+}
+
+/*-------HERO FORM SEARCH--------------*/
+
+.job-form {
+  width: min(var(--max-width), 92%);
+}
+.job-search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--color-surface);
+  backdrop-filter: blur(6px);
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-md);
+}
+
+.job-search-field svg {
+  width: 60px;
+  height: 20px;
+  stroke: var(--color-text-muted);
+}
+
+.job-search-field input {
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.job-search-field input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.job-search-field input:active {
+  border: none;
+}
+
+.super-job-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-search-select {
+  margin-top: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  backdrop-filter: blur(6px);
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-md);
+  max-width: 550px;
+}
+.sorted {
+  margin-top: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  backdrop-filter: blur(6px);
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-md);
+  max-width: 550px;
+}
+
+/*-------HERO FORM SELECT--------------*/
+
+.job-search-select select {
+  background: var(--color-surface);
+  color: var(--color-text);
+  padding: var(--space-xs);
+  border-radius: var(--radius-sm);
+  border: none;
+}
+.job-search-select option:hover {
+  background: var(--color-surface);
+}

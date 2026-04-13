@@ -1,0 +1,64 @@
+/* Aside contenedor */
+aside {
+  background: #0b1a2b;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Header usuario */
+aside nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+aside nav h2 {
+  font-size: 1rem;
+}
+
+aside nav p {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+/* Lista */
+aside ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Item */
+aside li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover */
+aside li:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Activo (clave visual) */
+aside li.active {
+  background: #123a63;
+}
+
+/* Links */
+aside a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 0.9rem;
+}
+.disabled {
+  cursor: not-allowed;
+}

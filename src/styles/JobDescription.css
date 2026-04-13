@@ -1,0 +1,104 @@
+/***************MAIN directorio*******************/
+
+.directorio {
+  display: flex;
+  gap: var(--space-xs);
+  background: transparent;
+}
+.directorio p {
+  color: var(--color-text-muted);
+}
+
+.directorio .job-name {
+  color: var(--color-text);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px var(--color-bg-muted);
+}
+
+.title-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+}
+
+.title-bottom h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.props {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.button-apply {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button-apply:hover {
+  background: var(--color-primary-strong);
+  cursor: pointer;
+}
+
+.button-apply:active {
+  background: var(--color-button-click);
+}
+
+.button-apply-aplicado {
+  background: var(--color-button-click);
+}
+
+.descripcion {
+  border-bottom: solid 1px var(--color-bg-muted);
+  border-top: solid 1px var(--color-bg-muted);
+  margin-bottom: 1rem;
+}
+
+.descripcion p {
+  color: var(--color-text-muted);
+}
+
+.descripcion li {
+  color: var(--color-text-muted);
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: var(--space-xs);
+}
+.descripcion svg {
+  stroke: var(--color-primary-strong);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.button-final {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button-final:hover {
+  background: var(--color-primary-strong);
+  cursor: pointer;
+}
+
+.button-final:active {
+  background: var(--color-button-click);
+}

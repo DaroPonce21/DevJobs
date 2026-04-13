@@ -1,0 +1,94 @@
+.loginForm {
+  width: min(var(--max-width), 92%);
+}
+
+.LoginTopForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.loginInputs {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--color-surface);
+  backdrop-filter: blur(6px);
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-md);
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rememberMe {
+  padding-right: 10rem;
+  opacity: 0.9;
+}
+
+.restartPass {
+  color: var(--color-primary-strong);
+  font-weight: bold;
+  cursor: not-allowed;
+}
+
+.restartPass:hover {
+  color: var(--color-text);
+  font-weight: bold;
+  cursor: not-allowed;
+}
+
+.button-apply-Login {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  cursor: not-allowed;
+}
+
+.button-apply-Login:hover {
+  background-color: var(--color-bg-muted);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+  cursor: pointer;
+  transition: 0.2s ease;
+  cursor: not-allowed;
+}
+.create-accout {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  color: var(--color-primary-strong);
+}
+
+.create-button {
+  display: flex;
+  gap: var(--space-sm);
+  cursor: not-allowed;
+}
+
+.create-button > a {
+  padding: var(--space-xs);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+  cursor: not-allowed;
+}
+
+.create-button > a:hover {
+  background-color: var(--color-bg-muted);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+  cursor: not-allowed;
+}
