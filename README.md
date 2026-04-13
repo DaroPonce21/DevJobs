@@ -6,7 +6,7 @@ Aplicación web tipo bolsa de empleo enfocada en desarrolladores. Permite buscar
 
 ## 🚀 Demo
 
-👉 (agregá acá tu link deploy cuando lo tengas)
+👉 https://dev-jobs-wheat.vercel.app/
 
 ---
 
