@@ -29,7 +29,7 @@ Aplicación web tipo bolsa de empleo enfocada en desarrolladores. Permite buscar
 * React Router
 * Hooks personalizados (useDebounce, useFilters)
 * JavaScript (ES6+)
-* CSS moderno (Flexbox, Grid, variables)
+* CSS moderno (Flexbox, Grid, variables, responsivo)
 
 ---
 
@@ -57,8 +57,7 @@ src/
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/TU-USUARIO/devjobs-react
-cd devjobs-react
+git clone https://github.com/DaroPonce21/DevJobs
 npm install
 npm run dev
 ```
@@ -69,7 +68,7 @@ npm run dev
 
 | Home | Empleos |
 |------|--------|
-| <img src="./Capturas/Home.png" width="100%"> | <img src="./Capturas/Empleos.png" width="100%"> |
+| <img src="./Capturas/home.png" width="100%"> | <img src="./Capturas/Empleos.png" width="100%"> |
 
 | Detalle | Perfil |
 |--------|-------|
