@@ -1,6 +1,11 @@
 .hero {
   /*Imagen de fondo para el Hero.jsx*/
-  background: url("./background.webp") no-repeat center;
+
+  background-image: url("/background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 
   /*Altura minima para el hero*/
   min-height: 50vh;
