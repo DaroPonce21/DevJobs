@@ -1,0 +1,22 @@
+.Logingcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  color: var(--color-text);
+  
+}
+
+.Title {
+  font-size: clamp(3.5rem, 4vw, 3rem);
+  font-weight: 800;
+  max-width: 1200px;
+}
+
+.texto {
+  font-size: 1.5rem;
+  max-width: 600px;
+  opacity: 0.9;
+}

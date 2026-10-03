@@ -1,0 +1,40 @@
+.construction-page {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.construction-page h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.construction-page p {
+  max-width: 550px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: var(--color-text-muted);
+}
+
+.button-return {
+  width: auto;
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.button-return:hover {
+  background: var(--color-primary-strong);
+  transform: translateY(-1px);
+}
